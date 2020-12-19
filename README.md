@@ -1,2 +1,106 @@
 # software-foundations-checklist
-list of exercises from the software foundations series which i have solved
+list of exercises from the [software foundations](https://softwarefoundations.cis.upenn.edu/) series which i have solved at my private repository. the authors asked to not make solutions public, but if you need help with an exercise i solved feel free to contact me.
+- [ ] Volume 1: Logical Foundations
+  - [ ] Functional Programming in Coq
+    - [ ] Data and Functions
+    - [ ] Proof by Simplification
+    - [ ] Proof by Rewriting
+    - [ ] Proof by Case Analysis
+    - [ ] More Exercises
+    - [ ] Testing Your Solutions
+  - [ ] Proof by Induction
+    - [ ] Separate Compilation
+    - [ ] Proof by Induction
+    - [ ] Proofs Within Proofs
+    - [ ] Formal vs. Informal Proof
+    - [ ] More Exercises
+  - [ ] Working with Structured Data
+    - [ ] Pairs of Numbers
+    - [ ] Lists of Numbers
+    - [ ] Reasoning About Lists
+    - [ ] Options
+    - [ ] Partial Maps
+  - [ ] Polymorphism and Higher-Order Functions
+    - [ ] Polymorphism
+    - [ ] Functions as Data
+    - [ ] Additional Exercises
+  - [ ] More Basic Tactics
+    - [ ] The `apply` Tactic
+    - [ ] The `apply with` Tactic
+    - [ ] The `injection` and `discriminate` Tactics
+    - [ ] Using Tactics on Hypotheses
+    - [ ] Varying the Induction Hypothesis
+    - [ ] Unfolding Definitions
+    - [ ] Using `destruct` on Compound Expressions
+    - [ ] Review
+    - [ ] Additional Exercises
+  - [ ] Logic in Coq
+    - [ ] Logical Connectives
+    - [ ] Programming with Propositions
+    - [ ] Applying Theorems to Arguments
+    - [ ] Coq vs. Set Theory
+  - [ ] Inductively Defined Propositions
+    - [ ] Inductively Defined Proposiitons
+    - [ ] Using Evidence in Proofs
+    - [ ] Inductive Relations
+    - [ ] Case Study: Regular Expressions
+    - [ ] Case Study: Improving Reflection
+    - [ ] Additional Exercises
+  - [ ] Total and Partial Maps
+    - [ ] The Coq Standard Library
+    - [ ] Identifiers
+    - [ ] Total Maps
+    - [ ] Partial Maps
+  - [ ] The Curry-Howard Correspondence
+    - [ ] Proof Scripts
+    - [ ] Quantifiers, Implications, Functions
+    - [ ] Programming with Tactics
+    - [ ] Logical Connectives as Inductive Types
+    - [ ] Equality
+    - [ ] The Coq Trusted Computing Base
+  - [ ] Induction Principles
+    - [ ] Basics
+    - [ ] Polymorphism
+    - [ ] Induction Hypotheses
+    - [ ] More on the induction Tactic
+    - [ ] Induction Principles for Propositions
+    - [ ] Another Form of Induction Principles on Propositions
+    - [ ] Formal vs. Informal Proofs by Induction
+    - [ ] Explicit Proof Objects for Induction
+  - [ ] Properties of Relations
+    - [ ] Relations
+    - [ ] Basic Properties
+    - [ ] Reflexive, Transitive Closure
+  - [ ] Simple Imperative Programs
+    - [ ] Arithmetic and Boolean Expressions
+    - [ ] Coq Automation
+    - [ ] Evaluation as a Relation
+    - [ ] Commands
+    - [ ] Evaluating Commands
+    - [ ] Reasoning About Imp Programs
+    - [ ] Additional Exercises
+  - [ ] Lexing and Parsing in Coq
+    - [ ] Internals
+    - [ ] Examples
+  - [ ] An Evalutaion Function for Imp
+    - [ ] A Broken Evaluator
+    - [ ] A Step-Indexed Evaluator
+    - [ ] Relational vs. Step-Indexed Evaluation
+    - [ ] Determinism of Evaluation Again
+  - [ ] Extracting ML from Coq
+    - [ ] Basic Extraction
+    - [ ] Controlling Extraction of Specific Types
+    - [ ] A Complete Example
+    - [ ] Discussion
+    - [ ] Going Further
+  - [ ] More Automation
+    - [ ] The `auto` Tactic
+    - [ ] Searching For Hypotheses
+    - [ ] Tactics `eapply` and `eauto`
+    - [ ] Constraints on Existential Variables
+  - [ ] More Automation
+    - [ ] Coq Automation
+    - [ ] Tacticals
+    - [ ] Decision Procedures
+    - [ ] Search Tactics
+
