@@ -20,43 +20,163 @@ list of exercises from the [software foundations](https://softwarefoundations.ci
       - [ ] `andb_eq_orb`, 3 stars, standard, optional
       - [ ] `binary`, 3 stars, standard, optional
   - [ ] Proof by Induction (Induction)
-    - [ ] Separate Compilation
     - [ ] Proof by Induction
-    - [ ] Proofs Within Proofs
+		  - [ ] `basic_induction`, 2 stars, standard, especially useful
+		  - [ ] `double_plus`, 2 stars, standard
+		  - [ ] `evenb_S`, 2 stars, standard, optional
+		  - [ ] `destruct_induction`, 1 star, standard, optional
     - [ ] Formal vs. Informal Proof
+		  - [ ] `plus_comm_informal`, 2 stars, advanced, especially useful
+			- [ ] `eqb_refl_informal`, 2 stars, standard, optional
     - [ ] More Exercises
+		  - [ ] `mult_comm`, 3 stars, standard, especially useful
+		  - [ ] `more_exercises`, 3 stars, standard, optional
+		  - [ ] `eqb_refl`, 2 stars, standard, optional
+		  - [ ] `plus_swap'`, 2 stars, standard, optional
+		  - [ ] `binary_commute`, 3 stars, standard, especially useful
+		  - [ ] `binary_inverse`, 5 stars, advanced
   - [ ] Working with Structured Data (Lists)
     - [ ] Pairs of Numbers
+		  - [ ] `snd_fst_is_swap`, 1 star, standard
+		  - [ ] `fst_swap_is_snd`, 1 star, standard, optional
     - [ ] Lists of Numbers
+		  - [ ] `list_funs`, 2 stars, standard, especially useful
+			- [ ] `alternate`, 3 stars, advanced
+			- [ ] `bag_functions`, 3 stars, standard, especially useful
+			- [ ] `bag_more_functions`, 3 stars, standard, optional
+			- [ ] `add_inc_count`, 2 stars, standard, especially useful
     - [ ] Reasoning About Lists
+		  - [ ] `list_exercises`, 3 stars, standard
+			- [ ] `eqblist`, 2 stars, standard
+			- [ ] `count_member_nonzero`, 1 star, standard
+			- [ ] `remove_does_not_increase_count`, 3 stars, advanced
+			- [ ] `bag_count_sum`, 3 stars, standard, optional
+			- [ ] `rev_injective`, 4 stars, advanced
     - [ ] Options
+		  - [ ] `hd_error`, 2 stars, standard
+			- [ ] `òption_elim_hd`, 1 star, standard, optional
     - [ ] Partial Maps
+		  - [ ] `eqb_id_refl`, 1 star, standard
+			- [ ] `update_eq`, 1 star, standard
+			- [ ] `update_neq`, 1 star, standard
+			- [ ] `baz_num_elts`, 2 stars, standard
   - [ ] Polymorphism and Higher-Order Functions (Poly)
     - [ ] Polymorphism
+		  - [ ] `mumble_grumble`, 2 stars, standard
+			- [ ] `poly_exercises`, 2 stars, standard, optional
+			- [ ] `more_poly_exercises`, 2 stars, standard, optional
+			- [ ] `combine_checks`, 1 star, standard, optional
+			- [ ] `split` 2 stars, standard, especially useful
+			- [ ] `hd_error_poly`, 1 star, standard, optional
     - [ ] Functions as Data
+		  - [ ] `filter_even_gt_7`, 2 stars, standard
+			- [ ] `partition`, 3 stars, standard
+			- [ ] `map_rev`, 3 stars, standard
+			- [ ] `flat_map`, 2 stars, standard, especially_useful
+			- [ ] `implicit_args`, 2 stars, standard, optional
+			- [ ] `fold_types_different`, 1 star, advanced
     - [ ] Additional Exercises
+		  - [ ] `fold_length`, 2 stars, standard
+			- [ ] `fold_map`, 3 stars, standard
+			- [ ] `currying`, 2 stars, standard
+			- [ ] `nth_error_informal`, 2 stars, advanced
+			- [ ] `church_succ`, 1 star, advanced
+			- [ ] `church_plus`, 1 star, advanced
+			- [ ] `church_exp`, 2 stars, advanced
   - [ ] More Basic Tactics (Tactics)
     - [ ] The `apply` Tactic
+		  - [ ] `silly_ex`, 2 stars, standard, optional
+			- [ ] `apply_exercise1`, 3 stars, standard
+			- [ ] `apply_rewrite`, 1 star, optional
     - [ ] The `apply with` Tactic
+		  - [ ] `trans_eq_exercise`, 3 stars, standard, optional
     - [ ] The `injection` and `discriminate` Tactics
-    - [ ] Using Tactics on Hypotheses
+		  - [ ] `injection_ex_3`, 3 stars, standard
+			- [ ] `discriminate_ex_3`, 1 star, standard
     - [ ] Varying the Induction Hypothesis
-    - [ ] Unfolding Definitions
+		  - [ ] `eqb_true`, 2 stars, standard
+			- [ ] `eqb_true_informal`, 2 stars, advanced
+			- [ ] `plus_n_n_injective`, 3 stars, standard, especially useful
+			- [ ] `gen_dep_practice`, 3 stars, standard, especially useful
     - [ ] Using `destruct` on Compound Expressions
-    - [ ] Review
+		  - [ ] `combine_split`, 3 stars, standard
+			- [ ] `destruct_eqn_practice`, 2 stars, standard
     - [ ] Additional Exercises
+		  - [ ] `eqb_sym`, 3 stars, standard
+			- [ ] `eqb_sym_informal`, 3 stars, advanced, optional
+			- [ ] `eqb_trans`, 3 stars, standard, optional
+			- [ ] `split_combine`, 3 stars, advanced
+			- [ ] `filter_exercise`, 3 stars, advanced
+			- [ ] `forall_exists_challenge`, 4 stars, advanced, especially_useful
   - [ ] Logic in Coq (Logic)
     - [ ] Logical Connectives
+		  - [ ] `and_exercise`, 2 stars, standard
+			- [ ] `proj2`, 1 star, standard, optional
+			- [ ] `and_assoc`, 2 stars, standard
+			- [ ] `not_implies_our_not`, 2 stars, standard, optional
+			- [ ] `double_neg_inf`, 2 stars, advanced
+			- [ ] `contrapositive`, 2 stars, standard, especially_useful
+			- [ ] `not_both_true_and_false`, 1 star, standard
+			- [ ] `informal_not_PNP`, 1 star, advanced
+			- [ ] `or_distributes_ove_and`, 3 stars, standard
+			- [ ] `dist_not_exists`, 1 star, standard, especially_useful
+			- [ ] `dist_exists_or`, 2 stars, standard
     - [ ] Programming with Propositions
-    - [ ] Applying Theorems to Arguments
+		  - [ ] `in_map_iff`, 3 stars, standard
+			- [ ] `in_app_iff`, 2 stars, standard
+			- [ ] `All`, 3 stars, standard, espcially useful
+			- [ ] `combine_odd_even`, 2 stars, standard, optional
     - [ ] Coq vs. Set Theory
+		  - [ ] `tr_rev_correct`, 4 stars, standard
+			- [ ] `evenb_double_conv`, 3 stars, standard
+			- [ ] `logical_connectives`, 2 stars, standard
+			- [ ] `eqb_list`, 3 stars, standard
+			- [ ] `All_forallb`, 2 stars, standard, especially useful
+			- [ ] `excluded_middle_irrefutable`, 3 stars, standard
+			- [ ] `not_exists_dist`, 3 stars, advanced
+			- [ ] `classical_axioms`, 5 stars, standard, optional
   - [ ] Inductively Defined Propositions (IndProp)
-    - [ ] Inductively Defined Proposiitons
     - [ ] Using Evidence in Proofs
+		  - [ ] `inversion_practice`, 1 star, standard
+			- [ ] `ev5_nonsense`, 1 star, standard
+			- [ ] `ev_sum`, 2 stars, standard
+			- [ ] `ev'_ev`, 4 stars, advanced, optional
+			- [ ] `ev_ev_ev`, 3 stars, advanced, espcially useful
+			- [ ] `ev_plus_plus`, 3 stars, standard, optional
     - [ ] Inductive Relations
+		  - [ ] `total_relation`, 2 stars, standard, optional
+			- [ ] `empty_relation`, 2 stars, standard, optional
+			- [ ] `le_exercises`, 3 stars, standard, optional
+			- [ ] `leb_iff`, 2 stars, standard, optional
+			- [ ] `R_provability`, 3 stars, standard, especially useful
+			- [ ] `R_fact`, 3 stars, standard, optional
+			- [ ] `subsequence`, 2 stars, advanced
+			- [ ] `R_provability2`, 2 stars, standard, optional
     - [ ] Case Study: Regular Expressions
+		  - [ ] `exp_match_ex_1`, 3 stars, standard
+			- [ ] `reg_exp_of_list_spec`, 4 stars, standard, optional
+			- [ ] `re_not_empty`, 4 stars, standard
+			- [ ] `exp_match_ex_2`, 4 stars, standard, optional
+			- [ ] `weak_pumping`, 5 stars, advanced
+			- [ ] `pumping`, 5 stars, advanced, optional
     - [ ] Case Study: Improving Reflection
+		  - [ ] `reflect_iff`, 2 stars, standard, especially useful
+			- [ ] `eqbP_practice`, 3 stars, standard, especially useful
     - [ ] Additional Exercises
+		  - [ ] `nostutter_defn`, 3 stars, standard, especially useful
+			- [ ] `filter_challenge`, 4 stars, advanced
+			- [ ] `filter_challenge`, 5 stars, advanced, optional
+			- [ ] `palindromes`, 4 stars, standard, optional
+			- [ ] `NoDup`, 4 stars, advanced, optional
+			- [ ] `pigeonhole_principle`, 4 stars, advanced, optional
+			- [ ] `app_ne`, 3 stars, standard, optional
+			- [ ] `star_ne`, 3 stars, standard, optional
+			- [ ] `match_eps`, 2 stars, standard, optional
+			- [ ] `match_eps_refl`, 3 stars, standard, optional
+			- [ ] `derive`, 3 stars, standard, optional
+			- [ ] `derive_corr`, 4 stars, standard, optional
+			- [ ] `regex_match`, 2 stars, standard, optional
+			- [ ] `regex_refl`, 3 stars, standard, optional
   - [ ] Total and Partial Maps (Maps)
     - [ ] The Coq Standard Library
     - [ ] Identifiers
@@ -114,4 +234,3 @@ list of exercises from the [software foundations](https://softwarefoundations.ci
     - [ ] Tacticals
     - [ ] Decision Procedures
     - [ ] Search Tactics
-
