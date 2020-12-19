@@ -1,30 +1,41 @@
 # software-foundations-checklist
 list of exercises from the [software foundations](https://softwarefoundations.cis.upenn.edu/) series which i have solved at my private repository. the authors asked to not make solutions public, but if you need help with an exercise i solved feel free to contact me.
 - [ ] Volume 1: Logical Foundations
-  - [ ] Functional Programming in Coq
+  - [ ] Functional Programming in Coq (Basics)
     - [ ] Data and Functions
-    - [ ] Proof by Simplification
+      - [ ] `nandb`, 1 star, standard
+      - [ ] `andb3`, 1 star, standard
+      - [ ] `factorial`, 1 star, standard
+      - [ ] `ltb`, 1 star, standard
     - [ ] Proof by Rewriting
+      - [ ] `plus_id_exercise`, 1 star, standard
+      - [ ] `mult_n_1`, 1 star, standard
     - [ ] Proof by Case Analysis
+      - [ ] `andb_true_elim2`, 2 stars, standard
+      - [ ] `zero_nbeq_plus_1`, 1 star, standard
+      - [ ] `decreasing`, 2 stars, standard, optional
     - [ ] More Exercises
-    - [ ] Testing Your Solutions
-  - [ ] Proof by Induction
+      - [ ] `identity_fn_applied_twice`, 1 star, standard
+      - [ ] `negation_fn_applied_twice`, 1 star, standard
+      - [ ] `andb_eq_orb`, 3 stars, standard, optional
+      - [ ] `binary`, 3 stars, standard, optional
+  - [ ] Proof by Induction (Induction)
     - [ ] Separate Compilation
     - [ ] Proof by Induction
     - [ ] Proofs Within Proofs
     - [ ] Formal vs. Informal Proof
     - [ ] More Exercises
-  - [ ] Working with Structured Data
+  - [ ] Working with Structured Data (Lists)
     - [ ] Pairs of Numbers
     - [ ] Lists of Numbers
     - [ ] Reasoning About Lists
     - [ ] Options
     - [ ] Partial Maps
-  - [ ] Polymorphism and Higher-Order Functions
+  - [ ] Polymorphism and Higher-Order Functions (Poly)
     - [ ] Polymorphism
     - [ ] Functions as Data
     - [ ] Additional Exercises
-  - [ ] More Basic Tactics
+  - [ ] More Basic Tactics (Tactics)
     - [ ] The `apply` Tactic
     - [ ] The `apply with` Tactic
     - [ ] The `injection` and `discriminate` Tactics
@@ -34,31 +45,31 @@ list of exercises from the [software foundations](https://softwarefoundations.ci
     - [ ] Using `destruct` on Compound Expressions
     - [ ] Review
     - [ ] Additional Exercises
-  - [ ] Logic in Coq
+  - [ ] Logic in Coq (Logic)
     - [ ] Logical Connectives
     - [ ] Programming with Propositions
     - [ ] Applying Theorems to Arguments
     - [ ] Coq vs. Set Theory
-  - [ ] Inductively Defined Propositions
+  - [ ] Inductively Defined Propositions (IndProp)
     - [ ] Inductively Defined Proposiitons
     - [ ] Using Evidence in Proofs
     - [ ] Inductive Relations
     - [ ] Case Study: Regular Expressions
     - [ ] Case Study: Improving Reflection
     - [ ] Additional Exercises
-  - [ ] Total and Partial Maps
+  - [ ] Total and Partial Maps (Maps)
     - [ ] The Coq Standard Library
     - [ ] Identifiers
     - [ ] Total Maps
     - [ ] Partial Maps
-  - [ ] The Curry-Howard Correspondence
+  - [ ] The Curry-Howard Correspondence (ProofObjects)
     - [ ] Proof Scripts
     - [ ] Quantifiers, Implications, Functions
     - [ ] Programming with Tactics
     - [ ] Logical Connectives as Inductive Types
     - [ ] Equality
     - [ ] The Coq Trusted Computing Base
-  - [ ] Induction Principles
+  - [ ] Induction Principles (IndPrinciples)
     - [ ] Basics
     - [ ] Polymorphism
     - [ ] Induction Hypotheses
@@ -67,11 +78,11 @@ list of exercises from the [software foundations](https://softwarefoundations.ci
     - [ ] Another Form of Induction Principles on Propositions
     - [ ] Formal vs. Informal Proofs by Induction
     - [ ] Explicit Proof Objects for Induction
-  - [ ] Properties of Relations
+  - [ ] Properties of Relations (Rel)
     - [ ] Relations
     - [ ] Basic Properties
     - [ ] Reflexive, Transitive Closure
-  - [ ] Simple Imperative Programs
+  - [ ] Simple Imperative Programs (Imp)
     - [ ] Arithmetic and Boolean Expressions
     - [ ] Coq Automation
     - [ ] Evaluation as a Relation
@@ -79,26 +90,26 @@ list of exercises from the [software foundations](https://softwarefoundations.ci
     - [ ] Evaluating Commands
     - [ ] Reasoning About Imp Programs
     - [ ] Additional Exercises
-  - [ ] Lexing and Parsing in Coq
+  - [ ] Lexing and Parsing in Coq (ImpParser)
     - [ ] Internals
     - [ ] Examples
-  - [ ] An Evalutaion Function for Imp
+  - [ ] An Evalutaion Function for Imp (ImpCEvalFun)
     - [ ] A Broken Evaluator
     - [ ] A Step-Indexed Evaluator
     - [ ] Relational vs. Step-Indexed Evaluation
     - [ ] Determinism of Evaluation Again
-  - [ ] Extracting ML from Coq
+  - [ ] Extracting ML from Coq (Extraction)
     - [ ] Basic Extraction
     - [ ] Controlling Extraction of Specific Types
     - [ ] A Complete Example
     - [ ] Discussion
     - [ ] Going Further
-  - [ ] More Automation
+  - [ ] More Automation (Auto)
     - [ ] The `auto` Tactic
     - [ ] Searching For Hypotheses
     - [ ] Tactics `eapply` and `eauto`
     - [ ] Constraints on Existential Variables
-  - [ ] More Automation
+  - [ ] More Automation (AltAuto)
     - [ ] Coq Automation
     - [ ] Tacticals
     - [ ] Decision Procedures
